@@ -1,6 +1,6 @@
 # F1 Race Performance Analytics
 
-**What:** End-to-end data analytics pipeline on 2024 Formula 1 telemetry — EDA, regression modeling, tire degradation analysis, and driver comparison.
+**What:** End-to-end data analytics pipeline on 2024 Formula 1 telemetry EDA, regression modeling, tire degradation analysis, and driver comparison.
 
 **Personal connection:** Extended my IB Math IA (Piastri vs Verstappen cornering geometry at Suzuka) into a full Python data pipeline using real FastF1 telemetry.
 
@@ -10,7 +10,7 @@
 
 ## Questions Answered
 
-- Who was faster — Piastri or Verstappen — and across which sectors at Suzuka?
+- Who was faster Piastri or Verstappen and across which sectors at Suzuka?
 - How much does tire age affect lap time? (Linear Regression, quantified degradation rate)
 - Does the tire compound (Medium vs Hard) create a measurable pace delta?
 - Which features best predict a lap time?
@@ -30,16 +30,16 @@
 
 ## Key Findings (2024 Japanese GP)
 
-- **VER median lap: 96.393s · PIA median lap: 97.021s** — Verstappen 0.628s faster per lap
+- **VER median lap: 96.393s · PIA median lap: 97.021s** Verstappen 0.628s faster per lap
 - **Tire degradation:** Linear regression quantifies exactly how many seconds each lap on a tire costs (Medium vs Hard compounds separately)
 - **Sector 1** (contains the S-curves from the IB IA) shows the largest per-driver delta
-- **R² ~0.6–0.8** — 3 features (tire age, compound, lap number) explain majority of lap time variation
+- **R² ~0.6–0.8** 3 features (tire age, compound, lap number) explain majority of lap time variation
 
 ---
 
 ## Visualizations
 
-### Lap Time Trend — All Race Laps
+### Lap Time Trend All Race Laps
 ![Lap Time Trend](outputs/01_lap_time_trend.png)
 
 ### Lap Time Distribution
@@ -75,5 +75,5 @@ Data downloads automatically via FastF1 on first run (~2–5 min). Cached locall
 
 ## Dataset
 
-Real F1 telemetry via [FastF1](https://docs.fastf1.dev/) — official timing data, lap by lap.  
+Real F1 telemetry via [FastF1](https://docs.fastf1.dev/) official timing data, lap by lap.  
 Race: 2024 Japanese Grand Prix · Suzuka · April 7, 2024.
