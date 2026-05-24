@@ -37,7 +37,7 @@ Deployment              → Not needed for portfolio — charts + summary are th
 f1-analytics/
 ├── PROJECT_PLAN.md          ← this file
 ├── 01_eda_data_loading.ipynb
-├── 02_linear_regression.ipynb    (not yet created)
+├── 02_linear_regression.ipynb
 ├── 03_clustering.ipynb           (not yet created)
 ├── 04_classification.ipynb       (not yet created)
 ├── outputs/                      ← all saved charts go here
