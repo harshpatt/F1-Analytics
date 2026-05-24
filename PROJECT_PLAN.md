@@ -82,10 +82,10 @@ f1-analytics/
 
 **Target (y):** `LapTimeSec`
 
-**Steps to build:**
+**What I did:**
 1. Feature engineering — encode compound, drop nulls
 2. Train/test split (80/20)
-3. Normalization/standardization (from course Session 2)
+3. Normalization/standardization (from Modeling II course)
 4. Fit `LinearRegression` from sklearn
 5. Plot: actual vs predicted lap times
 6. Metrics: MSE, R² — explain what they mean
@@ -106,7 +106,7 @@ f1-analytics/
 
 **Steps:**
 1. Build feature matrix — one row per driver
-2. Standardize (K-Means is distance-based — scaling is critical, from course)
+2. Standardize (K-Means is distance-based — scaling is critical)
 3. Elbow method to find optimal k
 4. Fit KMeans, assign cluster labels
 5. Visualize clusters (scatter plot, PCA if needed)
@@ -133,13 +133,3 @@ f1-analytics/
 4. Compare accuracy
 5. Plot decision tree (interpretable — good for portfolio)
 6. Feature importance chart — which feature matters most?
-
----
-
-## Teaching Approach
-
-Every notebook: **explain before code, explain after output.**
-- Why we write each line
-- What the output tells us
-- How it connects to the course concept
-- One chart saved to `outputs/` per visualization
