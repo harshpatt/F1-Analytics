@@ -1,6 +1,6 @@
 # F1 Race Performance Analytics
 
-**What:** End-to-end data analytics pipeline on 2024 Formula 1 telemetry EDA, regression modeling, tire degradation analysis, and driver comparison.
+**What:** Full data analytics pipeline on 2024 Formula 1 telemetry — EDA, regression modeling, tire degradation analysis, and driver comparison.
 
 **Personal connection:** Extended my IB Math IA (Piastri vs Verstappen cornering geometry at Suzuka) into a full Python data pipeline using real FastF1 telemetry.
 
